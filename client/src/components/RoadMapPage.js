@@ -31,6 +31,7 @@ function RoadMapPage() {
                   <div className="roadmap">
                     <div className="roadmap-year">2020</div>
                   </div>
+
                   <div className="roadmap roadmap-right roadmap-finished">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
@@ -47,6 +48,7 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
+
                   <div className="roadmap roadmap-left roadmap-finished">
                     <div className="roadmap-step">
                       <div className="roadmap-head">
@@ -67,9 +69,11 @@ function RoadMapPage() {
                       </ul>
                     </div>
                   </div>
+
                   <div className="roadmap">
                     <div className="roadmap-year">2021</div>
                   </div>
+
                   <div className="roadmap roadmap-right">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
@@ -85,6 +89,7 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
+
                   <div className="roadmap roadmap-left">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
@@ -103,6 +108,7 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
+
                   <div className="roadmap roadmap-right">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
@@ -121,6 +127,7 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
+
                   <div className="roadmap roadmap-left">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
@@ -139,6 +146,7 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
+
                   <div className="roadmap roadmap-right">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
@@ -157,6 +165,7 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
+
                   <div className="roadmap roadmap-left">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
@@ -175,6 +184,7 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>

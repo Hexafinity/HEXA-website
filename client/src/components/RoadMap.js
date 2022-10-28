@@ -1,4 +1,53 @@
 import React from "react";
+import Platform from './Platform';
+
+const roadMaps = [
+  {
+    date: `2021 Q1`,
+    desc: `Idea Generation`,
+    isCompleted: true
+  },
+  {
+    date: `2021 Q2`,
+    desc: `Market Research`,
+    isCompleted: true
+  },
+  {
+    date: `2022 Q4`,
+    desc: `Conceptualization`,
+    isCompleted: true
+  },
+  {
+    date: `2023 Q1`,
+    desc: `ICO Public Sales Launch`,
+    isCompleted: true
+  },
+  {
+    date: `2023 Q2`,
+    desc: `Exchange Platform Launch and Third-Party listing`,
+    isCompleted: true
+  },
+  {
+    date: `2023 Q4`,
+    desc: `Copy Trade & Bot Trading Platform Development`,
+    isCompleted: false
+  },
+  {
+    date: `2024 Q1`,
+    desc: `VIP Rewards Implementation`,
+    isCompleted: false
+  },
+  {
+    date: `2024 Q2`,
+    desc: `Lending & Borrow Implementation`,
+    isCompleted: false
+  },
+  {
+    date: `2024 Q4`,
+    desc: `NFTs Marketplace Implementation`,
+    isCompleted: false
+  }
+];
 
 function RoadMap() {
   return (
@@ -6,6 +55,7 @@ function RoadMap() {
       <section className="section py-5" id="roadmap">
         <div className="container">
           <div className="row justify-content-center text-center">
+
             <div className="col-lg-6">
               <div className="section-head section-head-s2">
                 <h2
@@ -26,145 +76,31 @@ function RoadMap() {
                   consideration the feedback from our community.{" "}
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="container container-xxl">
-          <div className="nk-block">
-            <div
-              className="roadmap-wrap roadmap-wrap-ovl-right text-center animated"
-              data-animate="fadeInUp"
-              data-delay="0.3"
-            >
-              <div className="roadmap-line-s2"></div>
+
               <div
-                className="roadmap-slider has-carousel carousel-nav-center"
-                data-blank="true"
-                data-items="5"
-                data-items-tab-l="4"
-                data-items-tab-p="3"
-                data-items-mobile="2"
-                data-margin="-1"
-                data-navs="true"
+                className="hexa-road-map"
               >
-                <div className="roadmap roadmap-s2 roadmap-i1 roadmap-finished">
-                  <h6 className="roadmap-year-s2">Idea Generation</h6>
-                  <h5 className="title title-sm roadmap-date">
-                    Start: Q1 2020
-                  </h5>
-                  <div className="roadmap-text">
-                    <p>Status: ✅Mission Accomplishes</p>
-                  </div>
-                </div>
-                <div className="roadmap roadmap-s2 roadmap-i2 roadmap-finished">
-                  <h6 className="roadmap-year-s2">Market Research</h6>
-                  <h5 className="title title-sm roadmap-date">
-                    Start: Q3 2020
-                  </h5>
-                  <div className="roadmap-text">
-                    {/* <p>Status: Mission in Progress</p> */}
-                    <p>Status: ✅Mission in Accomplishes</p>
-                  </div>
-                </div>
+                <div className="road-map-line"></div>
+                {
+                  roadMaps?.map((roadMap) => {
+                    return (
+                      <div className="road-map-item">
+                        {
+                          roadMap?.isCompleted ?
+                            <img src="images/icons/road-map-completed.svg" alt="img" /> :
+                            <img src="images/icons/road-map-incompleted.svg" alt="img" />
+                        }
 
-                {/* <div className="roadmap roadmap-s2 roadmap-i3">
-                        <h6 className="roadmap-year-s2">Q3 2018</h6>
-                        <h5 className="title title-sm roadmap-date">Sep - Oct 2018</h5>
-                        <div className="roadmap-text">
-                            <p>Start Private Token Sale Round to our contributors.</p>
-                        </div>
-                    </div> */}
-                <div className="roadmap roadmap-s2 roadmap-i3 roadmap-finished">
-                  <h6 className="roadmap-year-s2">Conceptualization</h6>
-                  <h5 className="title title-sm roadmap-date">
-                    Start: Q3 2021
-                  </h5>
-                  <div className="roadmap-text">
-                    <p>Status: ✅Mission on Accomplishes</p>
-                  </div>
-                </div>
-                <div className="roadmap roadmap-s2 roadmap-i4 roadmap-finished">
-                  <h6 className="roadmap-year-s2">ICO Public Sales Launch</h6>
-                  <h5 className="title title-sm roadmap-date">
-                    Start: Q1 2022
-                  </h5>
-                  <div className="roadmap-text">
-                    <p>Status: ⏱Mission on Standby</p>
-                  </div>
-                </div>
-                <div className="roadmap roadmap-s2 roadmap-i5 ">
-                  <h6 className="roadmap-year-s2">
-                    Exchange Platform Launch and Third-Party Listing
-                  </h6>
-                  <h5 className="title title-sm roadmap-date">
-                    Start: Q4 2022
-                  </h5>
-                  <div className="roadmap-text">
-                    <p>Status: ⏱Mission on Standby</p>
-                  </div>
-                </div>
-                <div className="roadmap roadmap-s2 roadmap-i6 ">
-                  <h6 className="roadmap-year-s2">
-                    Copy Trade & Bot Trading Platform Development
-                  </h6>
-                  <h5 className="title title-sm roadmap-date">
-                    Start: Q3 2023
-                  </h5>
-                  <div className="roadmap-text">
-                    <p>Status: ⏱Mission on Standby</p>
-                  </div>
-                </div>
-                <div className="roadmap roadmap-s2 roadmap-i7">
-                  <h6 className="roadmap-year-s2">
-                    {" "}
-                    VIP Rewards Implementation
-                  </h6>
-                  <h5 className="title title-sm roadmap-date">
-                    Start: Q3 2023
-                  </h5>
-                  <div className="roadmap-text">
-                    <p>Status: ⏱Mission on Standby</p>
-                  </div>
-                </div>
-                <div className="roadmap roadmap-s2 roadmap-i8">
-                  <h6 className="roadmap-year-s2">
-                    {" "}
-                    Lending & Borrow Implementation
-                  </h6>
-                  <h5 className="title title-sm roadmap-date">
-                    Start: Q1 2024
-                  </h5>
-                  <div className="roadmap-text">
-                    <p>Status: ⏱Mission on Standby</p>
-                  </div>
-                </div>
-                <div className="roadmap roadmap-s2 roadmap-i9">
-                  <h6 className="roadmap-year-s2">
-                    NFTs Marketplace Implementation
-                  </h6>
-                  <h5 className="title title-sm roadmap-date">
-                    Start: Q3 2024
-                  </h5>
-                  <div className="roadmap-text">
-                    <p>Status: ⏱Mission on Standby</p>
-                  </div>
-                </div>
 
-                {/* <div className="roadmap roadmap-s2 roadmap-i5">
-                        <h6 className="roadmap-year-s2">Q1 2019</h6>
-                        <h5 className="title title-sm roadmap-date">Jan - Apr 2019</h5>
-                        <div className="roadmap-text">
-                            <p>Release of the initial versions of operational applications and smart contracts.</p>
-                        </div>
-                    </div>
-                    <div className="roadmap roadmap-s2 roadmap-i6">
-                        <h6 className="roadmap-year-s2">Q2 2019</h6>
-                        <h5 className="title title-sm roadmap-date">Jul - Aug 2019</h5>
-                        <div className="roadmap-text">
-                            <p>Creation of a decentralize martketplace to neural network adjacent coefficients.</p>
-                        </div>
-                    </div> */}
+                        <p className="q-date">{roadMap?.date}</p>
+
+                        <p className="q-desc">&nbsp; -&nbsp; {roadMap?.desc}</p>
+                      </div>
+                    );
+                  })
+                }
               </div>
+
             </div>
           </div>
         </div>
