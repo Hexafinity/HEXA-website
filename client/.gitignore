@@ -185,3 +185,6 @@ package-lock.json
 **/*.rs.bk
 .anchor
 target
+
+# React build directory
+build/

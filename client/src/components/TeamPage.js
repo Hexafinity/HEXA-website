@@ -14,7 +14,7 @@ function TeamPage() {
                   data-delay="0.1"
                   title="our Team"
                 >
-                  OUR TEAM
+                  OUR EXECUTIVE TEAM
                 </h2>
                 <p
                   className="animated"
@@ -48,9 +48,11 @@ function TeamPage() {
                       className="team-show content-popup"
                     ></a>
                   </div>
-                  <h5 className="team-name title title-md">Louis Baker</h5>
+                  <h5 className="team-name title title-md">
+                    Dr. Juan Sanjuan
+                  </h5>
                   <span className="team-position">
-                    CEO &amp; Lead Blockchain
+                    Founder & Chief Executive Officer
                   </span>
                   <ul className="team-social team-social-s2">
                     <li>
@@ -87,10 +89,10 @@ function TeamPage() {
                     <div className="col-md-6">
                       <div className="team-popup-info pl-md-3">
                         <h3 className="team-name title title-lg pt-4">
-                          Louis Baker
+                          Dr. Juan Sanjuan
                         </h3>
                         <p className="team-position">
-                          CEO &amp; Lead Blockchain
+                          Founder & Chief Executive Officer
                         </p>
                         <ul className="team-social team-social-s2 mb-4">
                           <li>
@@ -145,6 +147,7 @@ function TeamPage() {
                   </div>
                 </div>
               </div>
+
               <div
                 className="item animated"
                 data-animate="fadeInUp"
@@ -158,9 +161,9 @@ function TeamPage() {
                       className="team-show content-popup"
                     ></a>
                   </div>
-                  <h5 className="team-name title title-md">Stefan Harary</h5>
+                  <h5 className="team-name title title-md">Yezlybeth M</h5>
                   <span className="team-position">
-                    CTO &amp; Senior Developer
+                    President & Chief Operating Officer
                   </span>
                   <ul className="team-social team-social-s2">
                     <li>
@@ -199,10 +202,10 @@ function TeamPage() {
                     <div className="col-md-6">
                       <div className="team-popup-info pl-md-3">
                         <h3 className="team-name title title-lg pt-4">
-                          Stefan Harary
+                          Yezlybeth M
                         </h3>
                         <p className="team-position">
-                          CTO &amp; Senior Developer
+                          President & Chief Operating Officer
                         </p>
                         <ul className="team-social team-social-s2 mb-4">
                           <li>
@@ -234,6 +237,7 @@ function TeamPage() {
                 </div>
                 {/* <!-- .team-profile  --> */}
               </div>
+
               <div
                 className="item animated"
                 data-animate="fadeInUp"
@@ -247,9 +251,9 @@ function TeamPage() {
                       className="team-show content-popup"
                     ></a>
                   </div>
-                  <h5 className="team-name title title-md">Moises Teare</h5>
+                  <h5 className="team-name title title-md">Isaiah J</h5>
                   <span className="team-position">
-                    Blockchain App Developer
+                    Chief Product Officer
                   </span>
                   <ul className="team-social team-social-s2">
                     <li>
@@ -288,10 +292,10 @@ function TeamPage() {
                     <div className="col-md-6">
                       <div className="team-popup-info pl-md-3">
                         <h3 className="team-name title title-lg pt-4">
-                          Moises Teare
+                          Isaiah J
                         </h3>
                         <p className="team-position">
-                          Blockchain App Developer
+                          Chief Product Officer
                         </p>
                         <ul className="team-social team-social-s2 mb-4">
                           <li>
@@ -317,12 +321,13 @@ function TeamPage() {
                         </p>
                       </div>
                     </div>
-              
+
                   </div>
-             
+
                 </div>
-               
+
               </div>
+
               <div
                 className="item animated"
                 data-animate="fadeInUp"
@@ -336,9 +341,9 @@ function TeamPage() {
                       className="team-show content-popup"
                     ></a>
                   </div>
-                  <h5 className="team-name title title-md">Louis Baker</h5>
+                  <h5 className="team-name title title-md">Joseph O</h5>
                   <span className="team-position">
-                    CEO &amp; Lead Blockchain
+                    Chief Financial Officer
                   </span>
                   <ul className="team-social team-social-s2">
                     <li>
@@ -377,10 +382,10 @@ function TeamPage() {
                     <div className="col-md-6">
                       <div className="team-popup-info pl-md-3">
                         <h3 className="team-name title title-lg pt-4">
-                          Louis Baker
+                          Joseph O
                         </h3>
                         <p className="team-position">
-                          CEO &amp; Lead Blockchain{" "}
+                          Chief Financial Officer
                         </p>
                         <ul className="team-social team-social-s2 mb-4">
                           <li>
@@ -412,6 +417,7 @@ function TeamPage() {
                 </div>
                 {/* <!-- .team-profile  --> */}
               </div>
+
               <div
                 className="item animated"
                 data-animate="fadeInUp"
@@ -425,9 +431,9 @@ function TeamPage() {
                       className="team-show content-popup"
                     ></a>
                   </div>
-                  <h5 className="team-name title title-md">Louis Baker</h5>
+                  <h5 className="team-name title title-md">Mathew C</h5>
                   <span className="team-position">
-                    CEO &amp; Lead Blockchain
+                    Chief Legal Officer
                   </span>
                   <ul className="team-social team-social-s2">
                     <li>
@@ -466,10 +472,10 @@ function TeamPage() {
                     <div className="col-md-6">
                       <div className="team-popup-info pl-md-3">
                         <h3 className="team-name title title-lg pt-4">
-                          Louis Baker
+                          Mathew C
                         </h3>
                         <p className="team-position">
-                          CEO &amp; Lead Blockchain{" "}
+                          Chief Legal Officer
                         </p>
                         <ul className="team-social team-social-s2 mb-4">
                           <li>
@@ -501,6 +507,7 @@ function TeamPage() {
                 </div>
                 {/* <!-- .team-profile  --> */}
               </div>
+
               <div className="item">
                 <div className="team team-s2 team-even">
                   <div className="team-photo team-photo-s2">
@@ -510,9 +517,9 @@ function TeamPage() {
                       className="team-show content-popup"
                     ></a>
                   </div>
-                  <h5 className="team-name title title-md">Stefan Harary</h5>
+                  <h5 className="team-name title title-md">Abigail S</h5>
                   <span className="team-position">
-                    CTO &amp; Senior Developer
+                    Chief Marketing Officer
                   </span>
                   <ul className="team-social team-social-s2">
                     <li>
@@ -551,90 +558,10 @@ function TeamPage() {
                     <div className="col-md-6">
                       <div className="team-popup-info pl-md-3">
                         <h3 className="team-name title title-lg pt-4">
-                          Stefan Harary
+                          Abigail S
                         </h3>
                         <p className="team-position">
-                          CTO &amp; Senior Developer
-                        </p>
-                        <ul className="team-social team-social-s2 mb-4">
-                          <li>
-                            <a href="#">
-                              <em className="fab fa-facebook-f"></em>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <em className="fab fa-linkedin-in"></em>
-                            </a>
-                          </li>
-                        </ul>
-                        <p>
-                          He is a great man to work Lorem ipsum dolor sit amet,
-                          consec tetur adipis icing elit. Simi lique, autem.{" "}
-                        </p>
-                        <p>
-                          Tenetur quos facere magnam volupt ates quas esse
-                          Sedrep ell endus mole stiae tates quas esse Sed repell
-                          endus molesti aela uda ntium quis quam iusto minima
-                          thanks.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="item">
-                <div className="team team-s2 team-odd">
-                  <div className="team-photo team-photo-s2">
-                    <img src="hexa/img/avatar2.png" alt="" />
-                    <a
-                      href="#team-popup-7"
-                      className="team-show content-popup"
-                    ></a>
-                  </div>
-                  <h5 className="team-name title title-md">Moises Teare</h5>
-                  <span className="team-position">
-                    Blockchain App Developer
-                  </span>
-                  <ul className="team-social team-social-s2">
-                    <li>
-                      <a href="#">
-                        <em className="fab fa-facebook-f"></em>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <em className="fab fa-linkedin-in"></em>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <em className="fab fa-twitter"></em>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div
-                  id="team-popup-7"
-                  className="team-popup bg-theme tc-light mfp-hide"
-                >
-                  <a title="Close" className="mfp-close">
-                    ×
-                  </a>
-                  <div className="row align-items-start">
-                    <div className="col-md-6">
-                      <div className="team-photo">
-                        <img src="hexa/img/avatar2.png" alt="team" />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="team-popup-info pl-md-3">
-                        <h3 className="team-name title title-lg pt-4">
-                          Moises Teare
-                        </h3>
-                        <p className="team-position">
-                          Blockchain App Developer
+                          Chief Marketing Officer
                         </p>
                         <ul className="team-social team-social-s2 mb-4">
                           <li>

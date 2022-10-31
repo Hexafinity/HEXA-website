@@ -1,6 +1,5 @@
 // import logo from './logo.svg';
 // import './App.css';
-import './hexa-style.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import Contact from "./components/Contact";
@@ -64,7 +63,7 @@ function App() {
         <Route exact path="/signIn">
           <SignInPage />
         </Route>
-        <Route path="/">
+        <Route  path="/">
           <Banner />
           <HomePage />
         </Route>

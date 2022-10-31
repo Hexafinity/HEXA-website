@@ -17,7 +17,7 @@ function Footer() {
           </div>
           <div className="col-lg-6">
             <div className="copyright-text copyright-text-s2">
-              Copyright © 2022 <a href="#">Developer Bazaar Technologies</a>.
+              Copyright © 2022 <a href="#">HEXAFINITY</a>
             </div>
           </div>
         </div>

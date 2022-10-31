@@ -1,4 +1,5 @@
 import React from "react";
+import Platform from './Platform'
 
 function RoadMapPage() {
   return (
@@ -29,14 +30,13 @@ function RoadMapPage() {
                 <div className="roadmap-wrap mb-0">
                   <div className="roadmap-line"></div>
                   <div className="roadmap">
-                    <div className="roadmap-year">2020</div>
+                    <div className="roadmap-year">2021</div>
                   </div>
-
                   <div className="roadmap roadmap-right roadmap-finished">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
-                          Start: Q1 2020
+                          Start: Q1 2021
                         </span>
                         <span className="roadmap-title">Idea Generation</span>
                       </div>
@@ -48,12 +48,11 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
-
                   <div className="roadmap roadmap-left roadmap-finished">
                     <div className="roadmap-step">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
-                          Start: Q3 2020
+                          Start: Q2 2021
                         </span>
                         <span className="roadmap-title">Market Research</span>
                       </div>
@@ -69,16 +68,14 @@ function RoadMapPage() {
                       </ul>
                     </div>
                   </div>
-
                   <div className="roadmap">
                     <div className="roadmap-year">2021</div>
                   </div>
-
                   <div className="roadmap roadmap-right">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
-                          Start: Q3 2021
+                          Start: Q4 2021
                         </span>
                         <span className="roadmap-title">Conceptualization</span>
                       </div>
@@ -89,12 +86,29 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
-
                   <div className="roadmap roadmap-left">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
-                          Start: Q1 2022
+                          Start: Q4 2022
+                        </span>
+                        <span className="roadmap-title">
+                          Private Sale Start
+                        </span>
+                      </div>
+                      <p>✅Mission on Accomplishes</p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                        dolore magna aliquam erat volutpat.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="roadmap roadmap-right">
+                    <div className="roadmap-step custom-color">
+                      <div className="roadmap-head">
+                        <span className="roadmap-time-custom">
+                          Start: Q1 2023
                         </span>
                         <span className="roadmap-title">
                           ICO Public Sales Launch
@@ -108,15 +122,14 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
-
-                  <div className="roadmap roadmap-right">
+                  <div className="roadmap roadmap-left">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
-                          Start: Q4 2022
+                          Start: Q2 2023
                         </span>
                         <span className="roadmap-title">
-                          Exchange Platform Launch and Third-Party Listing
+                          Exchange Platform Launch and Third-Party listing
                         </span>
                       </div>
                       <p>⏱Mission on Standby</p>
@@ -127,12 +140,11 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
-
-                  <div className="roadmap roadmap-left">
+                  <div className="roadmap roadmap-right">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
-                          Start: Q3 2023
+                          Start: Q4 2023
                         </span>
                         <span className="roadmap-title">
                           Copy Trade & Bot Trading Platform Development
@@ -147,7 +159,7 @@ function RoadMapPage() {
                     </div>
                   </div>
 
-                  <div className="roadmap roadmap-right">
+                  <div className="roadmap roadmap-left">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
@@ -166,14 +178,14 @@ function RoadMapPage() {
                     </div>
                   </div>
 
-                  <div className="roadmap roadmap-left">
+                  <div className="roadmap roadmap-right">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
-                          Start: Q3 2024
+                          Start: Q2 2024
                         </span>
                         <span className="roadmap-title">
-                          NFTs Marketplace Implementatio
+                          Lending & Borrow Implementation
                         </span>
                       </div>
                       <p>⏱Mission on Standby</p>
@@ -185,6 +197,24 @@ function RoadMapPage() {
                     </div>
                   </div>
 
+                  <div className="roadmap roadmap-left">
+                    <div className="roadmap-step custom-color">
+                      <div className="roadmap-head">
+                        <span className="roadmap-time-custom">
+                          Start: Q4 2024
+                        </span>
+                        <span className="roadmap-title">
+                          NFTs Marketplace Implementation
+                        </span>
+                      </div>
+                      <p>⏱Mission on Standby</p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                        dolore magna aliquam erat volutpat.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -11,11 +11,6 @@ function TeamPageNewSection() {
                 <div class="banner-caption cpn tc-light text-center">
                   <div class="cpn-head">
                     <h2 class="title ttu"> Our Team - members</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                      magna aliquam erat volutpat..
-                    </p>
                   </div>
                 </div>
               </div>
@@ -34,9 +29,9 @@ function TeamPageNewSection() {
                       className="round-full"
                     />
                   </div>
-                  <h5 className="team-name">Waylon Dalton</h5>
+                  <h5 className="team-name">Creed J</h5>
                   <span className="team-position tc-primary">
-                    CEO &amp; Lead Blockchain
+                    Senior Blockchain Engineer
                   </span>
                   <div className="team-desc">
                     <p>
@@ -73,9 +68,9 @@ function TeamPageNewSection() {
                       className="round-full"
                     />
                   </div>
-                  <h5 className="team-name">Stefan Harary</h5>
+                  <h5 className="team-name">Emily Cooper</h5>
                   <span className="team-position tc-primary">
-                    CEO &amp; Lead Blockchain
+                    Blockchain Developer
                   </span>
                   <div className="team-desc">
                     <p>
@@ -112,9 +107,9 @@ function TeamPageNewSection() {
                       className="round-full"
                     />
                   </div>
-                  <h5 className="team-name">Moises Teare</h5>
+                  <h5 className="team-name">Ashlee C</h5>
                   <span className="team-position tc-primary">
-                    CEO &amp; Lead Blockchain
+                    Senior Digital Marketing
                   </span>
                   <div className="team-desc">
                     <p>
@@ -151,9 +146,9 @@ function TeamPageNewSection() {
                       className="round-full"
                     />
                   </div>
-                  <h5 className="team-name">Gabriel Bernal</h5>
+                  <h5 className="team-name">Rachel B</h5>
                   <span className="team-position tc-primary">
-                    CEO &amp; Lead Blockchain
+                    Content Marketing
                   </span>
                   <div className="team-desc">
                     <p>
