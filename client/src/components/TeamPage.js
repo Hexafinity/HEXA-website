@@ -1,5 +1,9 @@
 import React from "react";
 
+import getImage from './../helpers/getImage';
+
+import style from './../assets/styles/home/team.module.css'
+
 function TeamPage() {
   return (
     <main className="nk-pages tc-light">
@@ -16,14 +20,6 @@ function TeamPage() {
                 >
                   OUR EXECUTIVE TEAM
                 </h2>
-                <p
-                  className="animated"
-                  data-animate="fadeInUp"
-                  data-delay="0.2"
-                >
-                  Lorem ipsum dolor sit amet, consec tetur adipis icing elit.
-                  Simi lique, autem.
-                </p>
               </div>
             </div>
           </div>
@@ -41,8 +37,8 @@ function TeamPage() {
                 data-delay="0.3"
               >
                 <div className="team team-s2 team-odd">
-                  <div className="team-photo team-photo-s2">
-                    <img src="hexa/img/avatar2.png" alt="" />
+                  <div className={`team-photo team-photo-s2 ${style.remote_pink}`}>
+                    <img src={getImage(`avatars/members/san.jpg`)} alt="" />
                     <a
                       href="#team-popup-1"
                       className="team-show content-popup"
@@ -83,7 +79,7 @@ function TeamPage() {
                   <div className="row align-items-start">
                     <div className="col-md-6">
                       <div className="team-photo">
-                        <img src="hexa/img/avatar2.png" alt="team" />
+                        <img src={getImage(`avatars/members/san.jpg`)} alt="team" />
                       </div>
                     </div>
                     <div className="col-md-6">
@@ -154,8 +150,8 @@ function TeamPage() {
                 data-delay="0.4"
               >
                 <div className="team team-s2 team-even">
-                  <div className="team-photo team-photo-s2">
-                    <img src="hexa/img/avatar2.png" alt="" />
+                  <div className={`team-photo team-photo-s2 ${style.remote_pink}`}>
+                    <img src={getImage(`avatars/members/yezlybeth.jpg`)} alt="" />
                     <a
                       href="#team-popup-2"
                       className="team-show content-popup"
@@ -195,7 +191,7 @@ function TeamPage() {
                   <div className="row align-items-start">
                     <div className="col-md-6">
                       <div className="team-photo">
-                        <img src="hexa/img/avatar.png" alt="team" />
+                        <img src={getImage(`avatars/members/yezlybeth.jpg`)} alt="" />
                       </div>
                     </div>
 
@@ -244,8 +240,8 @@ function TeamPage() {
                 data-delay="0.5"
               >
                 <div className="team team-s2 team-odd">
-                  <div className="team-photo team-photo-s2">
-                    <img src="hexa/img/avatar2.png" alt="" />
+                  <div className={`team-photo team-photo-s2 ${style.remote_pink}`}>
+                    <img src={getImage(`avatars/members/product.png`)} alt="" />
                     <a
                       href="#team-popup-3"
                       className="team-show content-popup"
@@ -285,7 +281,7 @@ function TeamPage() {
                   <div className="row align-items-start">
                     <div className="col-md-6">
                       <div className="team-photo">
-                        <img src="hexa/img/avatar2.png" alt="team" />
+                        <img src={getImage(`avatars/members/product.png`)} alt="" />
                       </div>
                     </div>
                     {/* <!-- .col  --> */}
@@ -334,8 +330,8 @@ function TeamPage() {
                 data-delay="0.6"
               >
                 <div className="team team-s2 team-even">
-                  <div className="team-photo team-photo-s2">
-                    <img src="hexa/img/avatar2.png" alt="" />
+                  <div className={`team-photo team-photo-s2 ${style.remote_pink}`}>
+                    <img src={getImage(`avatars/members/financial.png`)} alt="" />
                     <a
                       href="#team-popup-4"
                       className="team-show content-popup"
@@ -375,7 +371,7 @@ function TeamPage() {
                   <div className="row align-items-start">
                     <div className="col-md-6">
                       <div className="team-photo">
-                        <img src="hexa/img/avatar2.png" alt="team" />
+                        <img src={getImage(`avatars/members/financial.png`)} alt="" />
                       </div>
                     </div>
                     {/* <!-- .col  --> */}
@@ -424,8 +420,8 @@ function TeamPage() {
                 data-delay="0.7"
               >
                 <div className="team team-s2 team-odd">
-                  <div className="team-photo team-photo-s2">
-                    <img src="hexa/img/avatar2.png" alt="" />
+                  <div className={`team-photo team-photo-s2 ${style.remote_pink}`}>
+                    <img src={getImage(`avatars/members/legal.png`)} alt="" />
                     <a
                       href="#team-popup-5"
                       className="team-show content-popup"
@@ -465,7 +461,7 @@ function TeamPage() {
                   <div className="row align-items-start">
                     <div className="col-md-6">
                       <div className="team-photo">
-                        <img src="hexa/img/avatar2.png" alt="team" />
+                        <img src={getImage(`avatars/members/legal.png`)} alt="" />
                       </div>
                     </div>
                     {/* <!-- .col  --> */}
@@ -510,8 +506,8 @@ function TeamPage() {
 
               <div className="item">
                 <div className="team team-s2 team-even">
-                  <div className="team-photo team-photo-s2">
-                    <img src="hexa/img/avatar2.png" alt="" />
+                  <div className={`team-photo team-photo-s2 ${style.remote_pink}`}>
+                    <img src={getImage(`avatars/members/marketing.png`)} alt="" />
                     <a
                       href="#team-popup-6"
                       className="team-show content-popup"
@@ -551,7 +547,7 @@ function TeamPage() {
                   <div className="row align-items-start">
                     <div className="col-md-6">
                       <div className="team-photo">
-                        <img src="hexa/img/avatar2.png" alt="team" />
+                        <img src={getImage(`avatars/members/marketing.png`)} alt="" />
                       </div>
                     </div>
                     {/* <!-- .col  --> */}

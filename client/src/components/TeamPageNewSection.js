@@ -1,16 +1,18 @@
 import React from "react";
 
+import getImage from './../helpers/getImage';
+
 function TeamPageNewSection() {
   return (
     <main className="nk-pages tc-light">
       <section className="section bg-dark">
         <div className="container">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-xl-6 col-lg-9">
-                <div class="banner-caption cpn tc-light text-center">
-                  <div class="cpn-head">
-                    <h2 class="title ttu"> Our Team - members</h2>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-xl-6 col-lg-9">
+                <div className="banner-caption cpn tc-light text-center">
+                  <div className="cpn-head">
+                    <h2 className="title ttu"> Our Team - members</h2>
                   </div>
                 </div>
               </div>
@@ -23,8 +25,7 @@ function TeamPageNewSection() {
                 <div className="team team-s4 round bg-light-custom">
                   <div className="team-photo team-photo-s1 round-full">
                     <img
-                      style={{ height: "155px" }}
-                      src="hexa/img/avatar2.png"
+                      src={getImage(`avatars/team/creed.png`)}
                       alt="team"
                       className="round-full"
                     />
@@ -34,10 +35,6 @@ function TeamPageNewSection() {
                     Senior Blockchain Engineer
                   </span>
                   <div className="team-desc">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incide.
-                    </p>
                   </div>
                   <ul className="team-social team-social-s2">
                     <li>
@@ -62,8 +59,7 @@ function TeamPageNewSection() {
                 <div className="team team-s4 round bg-light-custom">
                   <div className="team-photo team-photo-s1 round-full">
                     <img
-                      style={{ height: "155px" }}
-                      src="hexa/img/avatar2.png"
+                      src={getImage(`avatars/team/emily.png`)}
                       alt="team"
                       className="round-full"
                     />
@@ -73,10 +69,6 @@ function TeamPageNewSection() {
                     Blockchain Developer
                   </span>
                   <div className="team-desc">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incide.
-                    </p>
                   </div>
                   <ul className="team-social team-social-s2">
                     <li>
@@ -101,8 +93,7 @@ function TeamPageNewSection() {
                 <div className="team team-s4 round bg-light-custom">
                   <div className="team-photo team-photo-s1 round-full">
                     <img
-                      style={{ height: "155px" }}
-                      src="hexa/img/avatar2.png"
+                      src={getImage(`avatars/team/ashlee.jpg`)}
                       alt="team"
                       className="round-full"
                     />
@@ -112,10 +103,6 @@ function TeamPageNewSection() {
                     Senior Digital Marketing
                   </span>
                   <div className="team-desc">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incide.
-                    </p>
                   </div>
                   <ul className="team-social team-social-s2">
                     <li>
@@ -140,8 +127,7 @@ function TeamPageNewSection() {
                 <div className="team team-s4 round bg-light-custom">
                   <div className="team-photo team-photo-s1 round-full">
                     <img
-                      style={{ height: "155px" }}
-                      src="hexa/img/avatar2.png"
+                      src={getImage(`avatars/team/rachel.jpg`)}
                       alt="team"
                       className="round-full"
                     />
@@ -151,10 +137,6 @@ function TeamPageNewSection() {
                     Content Marketing
                   </span>
                   <div className="team-desc">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incide.
-                    </p>
                   </div>
                   <ul className="team-social team-social-s2">
                     <li>
