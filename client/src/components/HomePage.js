@@ -18,17 +18,17 @@ import TokenSale from "./TokenSale";
 function HomePage() {
   const [modelOpen, setModelopen] = useState(false)
   return (
-    <>
-        <RoadMap />
-        <TeamPage />
-        <Ecosystems />
-        <Platform />
-        <MvpPage />
-        <BuySection />
-        <PressNews />
-        <FAQPage />
-        <Contact /> 
-    </>
+    <React.Fragment>
+      <RoadMap />
+      <TeamPage />
+      <Ecosystems />
+      <Platform />
+      <MvpPage />
+      <BuySection />
+      <PressNews />
+      <FAQPage />
+      <Contact />
+    </React.Fragment>
   );
 }
 

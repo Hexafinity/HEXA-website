@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+/**
+ ** Custom Stylesheet
+*/
+.roadmap_year_s1 {
+ padding-bottom: 47px;
+}

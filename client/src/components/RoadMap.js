@@ -1,5 +1,4 @@
 import React from "react";
-import style from './../assets/stylesheets/components/home.module.css';
 
 function RoadMap() {
   return (
@@ -107,7 +106,7 @@ function RoadMap() {
                 </div>
 
                 <div className="roadmap roadmap-s2 roadmap-i6">
-                  <h6 className={style.roadmap_year_s1}>
+                  <h6 className="roadmap_year_s1">
                     Exchange Platform Launch and<br />Third-Party Listing
                   </h6>
                   <h5 className="title title-sm roadmap-date">
@@ -119,7 +118,7 @@ function RoadMap() {
                 </div>
 
                 <div className="roadmap roadmap-s2 roadmap-i7">
-                  <h6 className={style.roadmap_year_s1}>
+                  <h6 className="roadmap_year_s1">
                     Copy Trade & Bot Trading<br />Platform Development
                   </h6>
                   <h5 className="title title-sm roadmap-date">
@@ -131,7 +130,7 @@ function RoadMap() {
                 </div>
 
                 <div className="roadmap roadmap-s2 roadmap-i8">
-                  <h6 className={style.roadmap_year_s1}>
+                  <h6 className="roadmap_year_s1">
                     {" "}
                     VIP Rewards<br />Implementation
                   </h6>
@@ -144,7 +143,7 @@ function RoadMap() {
                 </div>
 
                 <div className="roadmap roadmap-s2 roadmap-i9">
-                  <h6 className={style.roadmap_year_s1}>
+                  <h6 className="roadmap_year_s1">
                     {" "}
                     Lending & Borrow<br />Implementation
                   </h6>
@@ -157,7 +156,7 @@ function RoadMap() {
                 </div>
 
                 <div className="roadmap roadmap-s2 roadmap-i10">
-                  <h6 className={style.roadmap_year_s1}>
+                  <h6 className="roadmap_year_s1">
                     NFTs Marketplace <br />Implementation
                   </h6>
                   <h5 className="title title-sm roadmap-date">
