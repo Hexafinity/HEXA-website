@@ -1,5 +1,6 @@
 import React from "react";
-import Platform from './Platform'
+
+import style from './../assets/styles/roadmap/index.module.css';
 
 function RoadMapPage() {
   return (
@@ -41,11 +42,6 @@ function RoadMapPage() {
                         <span className="roadmap-title">Idea Generation</span>
                       </div>
                       <p> ✅Mission Accomplishes</p>
-                      <p>
-                        {" "}
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam ac elit ac lacus elementum lacinia.{" "}
-                      </p>
                     </div>
                   </div>
                   <div className="roadmap roadmap-left roadmap-finished">
@@ -68,10 +64,8 @@ function RoadMapPage() {
                       </ul>
                     </div>
                   </div>
-                  <div className="roadmap">
-                    <div className="roadmap-year">2021</div>
-                  </div>
-                  <div className="roadmap roadmap-right">
+
+                  <div className="roadmap roadmap-right roadmap-finished">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
@@ -86,7 +80,12 @@ function RoadMapPage() {
                       </p>
                     </div>
                   </div>
-                  <div className="roadmap roadmap-left">
+
+                  <div className={`roadmap`}>
+                    <div className="roadmap-year">2022</div>
+                  </div>
+
+                  <div className={`roadmap roadmap-left roadmap-finished ${style.roadmap_left}`}>
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
@@ -96,14 +95,13 @@ function RoadMapPage() {
                           Private Sale Start
                         </span>
                       </div>
-                      <p>✅Mission on Accomplishes</p>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        dolore magna aliquam erat volutpat.
-                      </p>
                     </div>
                   </div>
+
+                  <div className="roadmap">
+                    <div className="roadmap-year">2023</div>
+                  </div>
+
                   <div className="roadmap roadmap-right">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
@@ -115,13 +113,9 @@ function RoadMapPage() {
                         </span>
                       </div>
                       <p>⏱Mission on Standby</p>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        dolore magna aliquam erat volutpat.
-                      </p>
                     </div>
                   </div>
+
                   <div className="roadmap roadmap-left">
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
@@ -133,11 +127,6 @@ function RoadMapPage() {
                         </span>
                       </div>
                       <p>⏱Mission on Standby</p>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        dolore magna aliquam erat volutpat.
-                      </p>
                     </div>
                   </div>
                   <div className="roadmap roadmap-right">
@@ -151,15 +140,14 @@ function RoadMapPage() {
                         </span>
                       </div>
                       <p>⏱Mission on Standby</p>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        dolore magna aliquam erat volutpat.
-                      </p>
                     </div>
                   </div>
 
-                  <div className="roadmap roadmap-left">
+                  <div className="roadmap">
+                    <div className="roadmap-year">2024</div>
+                  </div>
+
+                  <div className={`roadmap roadmap-left ${style.roadmap_left}`}>
                     <div className="roadmap-step custom-color">
                       <div className="roadmap-head">
                         <span className="roadmap-time-custom">
@@ -170,11 +158,6 @@ function RoadMapPage() {
                         </span>
                       </div>
                       <p>⏱Mission on Standby</p>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        dolore magna aliquam erat volutpat.
-                      </p>
                     </div>
                   </div>
 
@@ -189,11 +172,6 @@ function RoadMapPage() {
                         </span>
                       </div>
                       <p>⏱Mission on Standby</p>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        dolore magna aliquam erat volutpat.
-                      </p>
                     </div>
                   </div>
 
@@ -208,11 +186,6 @@ function RoadMapPage() {
                         </span>
                       </div>
                       <p>⏱Mission on Standby</p>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        dolore magna aliquam erat volutpat.
-                      </p>
                     </div>
                   </div>
                 </div>

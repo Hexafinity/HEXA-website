@@ -97,11 +97,11 @@ function TokenPage() {
                                             <tbody>
                                                 <tr>
                                                     <td className="table-head">Public Sale Starts</td>
-                                                    <td className="table-des">15th Nov 2020 12:00 GMT</td>
+                                                    <td className="table-des">----</td>
                                                 </tr>
                                                 <tr>
                                                     <td className="table-head">Public Sale Ends</td>
-                                                    <td className="table-des">25th Dec 2021 12:00 GMT</td>
+                                                    <td className="table-des">----</td>
                                                 </tr>
                                                 <tr>
                                                     <td className="table-head">Total Token Supply</td>
@@ -120,8 +120,8 @@ function TokenPage() {
                                                     <td className="table-des">-----</td>
                                                 </tr>
                                                 <tr>
-                                                    <td className="table-head">Token Value</td>
-                                                    <td className="table-des">1 ETH = ---- Hexa</td>
+                                                    <td className="table-head">Token Value 1 BNB</td>
+                                                    <td className="table-des">30,000,000</td>
                                                 </tr>
                                                 <tr>
                                                     <td className="table-head">Accepted</td>
