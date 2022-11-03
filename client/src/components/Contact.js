@@ -79,7 +79,7 @@ function Contact() {
 
                                 <ul className="social-links social-links-s2 justify-content-center animated" data-animate="fadeInUp" data-delay="0.6">
                                     <li><a href="https://twitter.com/HexaFinity" target={`_blank`}><em className="fab fa-twitter"></em></a></li>
-                                    <li><a href="https://medium.com/@HexaFinityNews" target={`_blank`}><em className="fab fa-medium-m"></em></a></li>
+                                    <li><a href="https://hexafinity.medium.com" target={`_blank`}><em className="fab fa-medium-m"></em></a></li>
                                     <li><a href="https://www.facebook.com/Hexafinity" target={`_blank`}><em className="fab fa-facebook-f"></em></a></li>
                                     <li><a href="https://www.youtube.com/channel/UCk6hE9SK5muneWmlByAj_sw" target={`_blank`}><em className="fab fa-youtube"></em></a></li>
                                     {/* <li><a href="#"><em className="fab fa-bitcoin"></em></a></li> */}

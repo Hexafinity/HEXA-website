@@ -125,11 +125,15 @@ function TokenPage() {
                                                 </tr>
                                                 <tr>
                                                     <td className="table-head">Accepted</td>
-                                                    <td className="table-des">ETH, BTC</td>
+                                                    <td className="table-des">BNB, BUSD, USDT</td>
                                                 </tr>
                                                 <tr>
                                                     <td className="table-head">Contract Address</td>
-                                                    <td className="table-des">Chain: Binance Smart Chain (BEP20)</td>
+                                                    <td className="table-des">
+                                                        <a href={`https://pancakeswap.finance/swap?outputCurrency=0x1e2d26b6351bfFE970baB183C25E267d9c0d1223`} target={`_blank`}>
+                                                            0x1e2d26b6351bfFE970baB183C25E267d9c0d1223
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
