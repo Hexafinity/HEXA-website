@@ -52,17 +52,12 @@ function TeamPage() {
                   </span>
                   <ul className="team-social team-social-s2">
                     <li>
-                      <a href="#">
-                        <em className="fab fa-facebook-f"></em>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/juan-sanjuan-a3a820234/">
                         <em className="fab fa-linkedin-in"></em>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://twitter.com/thejuansanjuan">
                         <em className="fab fa-twitter"></em>
                       </a>
                     </li>
@@ -92,25 +87,21 @@ function TeamPage() {
                         </p>
                         <ul className="team-social team-social-s2 mb-4">
                           <li>
-                            <a href="#">
-                              <em className="fab fa-facebook-f"></em>
+                            <a href="https://twitter.com/thejuansanjuan">
+                              <em className="fab fa-twitter"></em>
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/juan-sanjuan-a3a820234/">
                               <em className="fab fa-linkedin-in"></em>
                             </a>
                           </li>
                         </ul>
                         <p>
-                          He is a great man to work Lorem ipsum dolor sit amet,
-                          consec tetur adipis icing elit. Simi lique, autem.{" "}
+                          Dr. Sanjuan joined HexaFinity as CEO in 2022.{" "}
                         </p>
                         <p>
-                          Tenetur quos facere magnam volupt ates quas esse
-                          Sedrep ell endus mole stiae tates quas esse Sed repell
-                          endus molesti aela uda ntium quis quam iusto minima
-                          thanks.
+                          Extensive experience in investment banking, crypto implementation, and investor relationship with a focus on developing a secure compliance system & collaborating with banking to develop the future of financial services.
                         </p>
                         <div className="progress-list">
                           <div className="progress-wrap">
@@ -163,18 +154,8 @@ function TeamPage() {
                   </span>
                   <ul className="team-social team-social-s2">
                     <li>
-                      <a href="#">
-                        <em className="fab fa-facebook-f"></em>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/yezlybeth-mora-5a67b63b/">
                         <em className="fab fa-linkedin-in"></em>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <em className="fab fa-twitter"></em>
                       </a>
                     </li>
                   </ul>
@@ -205,25 +186,16 @@ function TeamPage() {
                         </p>
                         <ul className="team-social team-social-s2 mb-4">
                           <li>
-                            <a href="#">
-                              <em className="fab fa-facebook-f"></em>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/yezlybeth-mora-5a67b63b/">
                               <em className="fab fa-linkedin-in"></em>
                             </a>
                           </li>
                         </ul>
                         <p>
-                          He is a great man to work Lorem ipsum dolor sit amet,
-                          consec tetur adipis icing elit. Simi lique, autem.{" "}
+                          Yezlybeth M joined in 2021 HexaFinity and now serves as COO, overseeing the implementation of long-term, strategic business goals while ensuring effective procedures are in place.
                         </p>
                         <p>
-                          Tenetur quos facere magnam volupt ates quas esse
-                          Sedrep ell endus mole stiae tates quas esse Sed repell
-                          endus molesti aela uda ntium quis quam iusto minima
-                          thanks.
+                          Yezlybeth has deep expertise in blockchain and fintech along with a high-level understanding of research, development, and marketing.
                         </p>
                       </div>
                     </div>
@@ -253,18 +225,8 @@ function TeamPage() {
                   </span>
                   <ul className="team-social team-social-s2">
                     <li>
-                      <a href="#">
-                        <em className="fab fa-facebook-f"></em>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/isaiah-johnson-b38014256/">
                         <em className="fab fa-linkedin-in"></em>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <em className="fab fa-twitter"></em>
                       </a>
                     </li>
                   </ul>
@@ -295,25 +257,16 @@ function TeamPage() {
                         </p>
                         <ul className="team-social team-social-s2 mb-4">
                           <li>
-                            <a href="#">
-                              <em className="fab fa-facebook-f"></em>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/isaiah-johnson-b38014256/">
                               <em className="fab fa-linkedin-in"></em>
                             </a>
                           </li>
                         </ul>
                         <p>
-                          He is a great man to work Lorem ipsum dolor sit amet,
-                          consec tetur adipis icing elit. Simi lique, autem.{" "}
+                          Isaiah J joined HexaFinity early 2020 and now serves as CPO, developing & managing core parts of the HexaFinity DEX. {" "}
                         </p>
                         <p>
-                          Tenetur quos facere magnam volupt ates quas esse
-                          Sedrep ell endus mole stiae tates quas esse Sed repell
-                          endus molesti aela uda ntium quis quam iusto minima
-                          thanks.
+                          Isaiah J has been building valuable tools & infrastructure for financial innovation for the past 10 years.
                         </p>
                       </div>
                     </div>
@@ -396,14 +349,10 @@ function TeamPage() {
                           </li>
                         </ul>
                         <p>
-                          He is a great man to work Lorem ipsum dolor sit amet,
-                          consec tetur adipis icing elit. Simi lique, autem.{" "}
+                          Joseph O is the serving CFO of HexaFinity. {" "}
                         </p>
                         <p>
-                          Tenetur quos facere magnam volupt ates quas esse
-                          Sedrep ell endus mole stiae tates quas esse Sed repell
-                          endus molesti aela uda ntium quis quam iusto minima
-                          thanks.
+                          Since 2012, Joseph has been instrumental in the development of HexaFinity, establishing banking relationships, attracting key personnel & re-domiciling the exchange.
                         </p>
                       </div>
                     </div>
@@ -486,14 +435,10 @@ function TeamPage() {
                           </li>
                         </ul>
                         <p>
-                          He is a great man to work Lorem ipsum dolor sit amet,
-                          consec tetur adipis icing elit. Simi lique, autem.{" "}
+                          Mathew C is an cryptocurrency lawyer & accountant acting for leading businesses within this dynamic space.{" "}
                         </p>
                         <p>
-                          Tenetur quos facere magnam volupt ates quas esse
-                          Sedrep ell endus mole stiae tates quas esse Sed repell
-                          endus molesti aela uda ntium quis quam iusto minima
-                          thanks.
+                          Mathew obtained his law degree from Florida State University College of Law in 1999 & spent 8 years at Paypal prior to joining HexaFinity.
                         </p>
                       </div>
                     </div>
@@ -572,14 +517,10 @@ function TeamPage() {
                           </li>
                         </ul>
                         <p>
-                          He is a great man to work Lorem ipsum dolor sit amet,
-                          consec tetur adipis icing elit. Simi lique, autem.{" "}
+                          Abigail S is a serial entrepreneur with 10 years of experience building and designing consumer tech companies centered around social media, entertainment, and community. {" "}
                         </p>
                         <p>
-                          Tenetur quos facere magnam volupt ates quas esse
-                          Sedrep ell endus mole stiae tates quas esse Sed repell
-                          endus molesti aela uda ntium quis quam iusto minima
-                          thanks.
+                          She has been recognized in the Wired UK for NFT implementation in business.
                         </p>
                       </div>
                     </div>
