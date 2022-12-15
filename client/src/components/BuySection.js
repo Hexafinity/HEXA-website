@@ -63,7 +63,7 @@ function BuySection() {
                   data-delay="0.4"
                 >
                   <div className="doc-photo doc-shape doc-shape-d">
-                    <img src="hexa/img/pancake-removebg-preview.png" alt="" />
+                    <img src="hexa/img/pancake-removebg-preview.webp" alt="" />
                   </div>
                   <div className="doc-text">
                     <h5 className="doc-title title-sm">
@@ -89,7 +89,7 @@ function BuySection() {
                   data-delay="0.5"
                 >
                   <div className="doc-photo doc-shape doc-shape-d">
-                    <img src="hexa/img/biswapicon-removebg-preview.png" alt="" />
+                    <img src="hexa/img/biswapicon-removebg-preview.webp" alt="" />
                   </div>
                   <div className="doc-text">
                     <h5 className="doc-title title-sm">
@@ -112,7 +112,7 @@ function BuySection() {
                   data-delay="0.6"
                 >
                   <div className="doc-photo doc-shape doc-shape-d">
-                    <img src="hexa/img/babyswapicon-removebg-preview.png" alt="" />
+                    <img src="hexa/img/babyswapicon-removebg-preview.webp" alt="" />
                   </div>
                   <div className="doc-text">
                     <h5 className="doc-title title-sm">

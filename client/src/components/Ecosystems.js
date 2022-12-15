@@ -55,7 +55,7 @@ function Ecosystems() {
                   <img
                     style={{ height: "130px" }}
                     className=""
-                    src="hexa/img/money-bag-and-coin-sack.png"
+                    src="hexa/img/money-bag-and-coin-sack.webp"
                     alt="logo"
                   />
                   {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet sagittis ipsum et posuere. Cras quis odio dapibus nisl rhoncus.</p> */}
@@ -74,7 +74,7 @@ function Ecosystems() {
                   <img
                     style={{ height: "130px" }}
                     className=""
-                    src="hexa/img/hot-wallet.png"
+                    src="hexa/img/hot-wallet.webp"
                     alt="logo"
                   />
                   {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet sagittis ipsum et posuere. Cras quis odio dapibus nisl rhoncus.</p> */}
