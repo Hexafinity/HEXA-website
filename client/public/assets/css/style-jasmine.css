@@ -5162,7 +5162,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .token-info-item:before { position: absolute; left: 0; top: 0; bottom: 0; width: 5px; content: ''; border-radius: 2px; background: #a963ff; }
 
-.token-info-item.color-2:before { background: #f42f54; }
+.token-info-item.color-2:before { background: #94c6cd; }
 
 .token-info-item.color-3:before { background: #f5a946; }
 

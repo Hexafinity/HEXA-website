@@ -52,7 +52,7 @@ function TokenSale() {
                   <li
                     className="col-sm-8"
                     data-color="#1f2e4d"
-                    data-color-hover="#f42f54"
+                    data-color-hover="#94c6cd"
                     data-label="Public Sale"
                     data-title="Tokens alocate for Public Sale"
                     data-subtitle="(Lockup)"
@@ -61,7 +61,7 @@ function TokenSale() {
                   <li
                     className="col-sm-8"
                     data-color="#1f2e4d"
-                    data-color-hover="#f42f54"
+                    data-color-hover="#94c6cd"
                     data-label="Private Sale"
                     data-title="Tokens alocate for Private Sale"
                     data-subtitle="(1 month lockup for half bonus)"
@@ -70,7 +70,7 @@ function TokenSale() {
                   <li
                     className="col-sm-6"
                     data-color="#1f2e4d"
-                    data-color-hover="#f42f54"
+                    data-color-hover="#94c6cd"
                     data-label="Reserve Fund"
                     data-title="Reserve Fund"
                     data-subtitle="(6 months lockup)"
@@ -79,7 +79,7 @@ function TokenSale() {
                   <li
                     className="col-sm-6"
                     data-color="#1f2e4d"
-                    data-color-hover="#f42f54"
+                    data-color-hover="#94c6cd"
                     data-label="Team & Founder"
                     data-title="Team & Founder"
                     data-subtitle="(3 months lockup)"
@@ -88,7 +88,7 @@ function TokenSale() {
                   <li
                     className="col-sm-6"
                     data-color="#1f2e4d"
-                    data-color-hover="#f42f54"
+                    data-color-hover="#94c6cd"
                     data-label="Bounty & Events"
                     data-title="Bounty & Events"
                     data-subtitle="(1 months lockup)"
@@ -97,7 +97,7 @@ function TokenSale() {
                   <li
                     className="col-sm-6"
                     data-color="#1f2e4d"
-                    data-color-hover="#f42f54"
+                    data-color-hover="#94c6cd"
                     data-label="Advisors & Partners"
                     data-title="Advisors & Partners"
                     data-subtitle="(6 months lockup)"
