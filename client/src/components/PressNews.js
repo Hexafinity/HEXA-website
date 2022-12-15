@@ -156,9 +156,6 @@ function PressNews() {
                                                         <a href="#" className="link"><span> Learn More</span> <em className="link-icon link-icon-sm fas fa-angle-right"></em></a>
                                                     </div>
                                                 </div>
-                                                <div className="bg-image round" data-overlay="theme" data-opacity="85">
-                                                    <img src="images/azalea/news-hr-a.jpg" alt="" />
-                                                </div>
                                             </div>
                                             <div className="blog blog-s2 animated" data-animate="fadeInUp" data-delay="0.85">
                                                 <div className="blog-content blog-content-inline">
@@ -169,9 +166,6 @@ function PressNews() {
                                                     <div className="blog-action">
                                                         <a href="#" className="link"><span> Learn More</span> <em className="link-icon link-icon-sm fas fa-angle-right"></em></a>
                                                     </div>
-                                                </div>
-                                                <div className="bg-image round" data-overlay="theme" data-opacity="85">
-                                                    <img src="images/azalea/news-hr-b.jpg" alt="" />
                                                 </div>
                                             </div>
                                         </div>
