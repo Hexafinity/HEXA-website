@@ -19,14 +19,14 @@ function NavBar() {
               <Link to="/home" refresh="true" className="logo-link">
                 <img
                   className="logo-dark"
-                  src="hexa/img/HexaFinity.png"
-                  srcSet="hexa/img/HexaFinity.png 2x"
+                  src="hexa/img/HexaFinity.webp"
+                  srcSet="hexa/img/HexaFinity.webp 2x"
                   alt="logo"
                 />
                 <img
                   className="logo-light"
-                  src="hexa/img/HexaFinity.png"
-                  srcSet="hexa/img/HexaFinity.png 2x"
+                  src="hexa/img/HexaFinity.webp"
+                  srcSet="hexa/img/HexaFinity.webp 2x"
                   alt="logo"
                 />
               </Link>

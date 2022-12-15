@@ -31,7 +31,7 @@ function Platform() {
                                     <div className="col-lg-6 order-lg-last">
                                         <div className="nk-block-img nk-block-ca animated" data-animate="fadeInUp" data-delay="0.2">
                                             <div className="nk-circle-animation nk-df-center fast"></div>
-                                            <img className="shadow rounded" src="hexa/img/char.png" alt="" />
+                                            <img className="shadow rounded img-character" src="hexa/img/char.webp" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-5">
@@ -81,7 +81,7 @@ function Platform() {
                                     <div className="col-lg-6 order-lg-last">
                                         <div className="nk-block-img nk-block-ca animated" data-animate="fadeInUp" data-delay="0.2">
                                             <div className="nk-circle-animation nk-df-center fast"></div>
-                                            <img className="shadow rounded" src="hexa/img/char.png" alt="" />
+                                            <img className="shadow rounded" src="hexa/img/char.webp" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-5">

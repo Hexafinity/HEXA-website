@@ -39,7 +39,7 @@ function BuySection() {
                   data-delay="0.3"
                 >
                   <div className="doc-photo doc-shape doc-shape-d">
-                    <img src="hexa/img/logo(2).png" alt="" />
+                    <img src="hexa/img/logo(2).webp" alt="" />
                   </div>
                   <div className="doc-text">
                     <h5 className="doc-title title-sm">

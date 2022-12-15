@@ -20,7 +20,7 @@ function MvpPage() {
             <div className="row align-items-center justify-content-center justify-content-xl-between gutter-vr-30px">
                 <div className="col-xxl-6 col-xl-6 col-lg-8">
                     <div className="nk-block-img animated" data-animate="fadeInUp" data-delay="0.3">
-                        <img className="w-100 shadow rounded" src="hexa/img/image.png" alt="" />
+                        <img className="w-100 shadow rounded" src="hexa/img/image.webp" alt="" />
                         {/* <img className="nk-block-img-plx plx-screen shadow rounded" src="hexa/img/logo (2).png" alt="" /> */}
         
                     </div>

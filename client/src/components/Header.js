@@ -1,7 +1,6 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 
-let isClickdToggal = false;
 const toggleLinkClass = "navbar-toggle";
 const toggleMenuClass = "header-navbar animated";
 const toggleLinkClassAfter = "navbar-toggle navbar-active";
@@ -10,15 +9,9 @@ const toggleMenuClassAfter =
 
 function Header({ setModelOpen }) {
   let history = useHistory();
-  const toggelRef = useRef(null);
   const [toggle, setToggle] = useState(true);
   const loginBtnHandler = () => {
     setModelOpen(true);
-  };
-  const toggleHandler = () => {
-    setToggle(!toggle);
-    console.log(toggle);
-    // toggelRef.current.style.className = "navbar-toggle ";
   };
 
   return (
@@ -44,14 +37,14 @@ function Header({ setModelOpen }) {
               >
                 <img
                   className="logo-dark"
-                  src="hexa/img/HexaFinity.png"
-                  srcSet="hexa/img/HexaFinity.png 2x"
+                  src="hexa/img/HexaFinity.webp"
+                  srcSet="hexa/img/HexaFinity.webp 2x"
                   alt="logo"
                 />
                 <img
                   className="logo-light"
-                  src="hexa/img/HexaFinity.png"
-                  srcSet="hexa/img/HexaFinity.png 2x"
+                  src="hexa/img/HexaFinity.webp"
+                  srcSet="hexa/img/HexaFinity.webp 2x"
                   alt="logo"
                 />
               </Link>

@@ -6920,5 +6920,17 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 @media (min-width: 1200px) and (min-height: 900px) { .nk-preview .banner-fs, .nk-preview .nk-pages-centered { min-height: calc(100vh - 200px); } }
 
+.hexa-token {
+  margin: auto;
+  display: block;
+}
+
+.img-character { margin: auto; display: block; }
+
+@media (max-width: 768px) {
+  .img-character {
+    max-width: 220px;
+  }
+}
 /* END @iO */
 /* END @iO */

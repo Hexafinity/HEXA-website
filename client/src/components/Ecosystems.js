@@ -35,7 +35,7 @@ function Ecosystems() {
                   <img
                     style={{ height: "130px" }}
                     className=""
-                    src="hexa/img/business-team.png"
+                    src="hexa/img/business-team.webp"
                     alt="logo"
                   />
 
@@ -94,8 +94,8 @@ function Ecosystems() {
                   <img
                     style={{ height: "130px" }}
                     className=""
-                    src="hexa/img/Hexa.png"
-                    alt="logo"
+                    src="hexa/img/Hexa.webp"
+                    alt="Hexa Token"
                   />
                   {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet sagittis ipsum et posuere. Cras quis odio dapibus nisl rhoncus.</p> */}
                 </div>

@@ -16,7 +16,7 @@ function Banner() {
                   data-animate="fadeInUp"
                   data-delay=".7"
                 >
-                  <img src="hexa/img/Hexa.png" alt="header" />
+                  <img src="hexa/img/Hexa.webp" className="hexa-token" alt="Hexa Token" />
                 </div>
               </div>
               <div className="col-xl-5 col-lg-6 col-sm-10 text-center text-lg-left">

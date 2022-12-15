@@ -9,9 +9,9 @@ function LoginPage() {
         <main className="nk-pages nk-pages-centered bg-theme">
             <div className="ath-container">
                 <div className="ath-header text-center">
-                {/* <img className="logo-light" src="hexa/img/HexaFinity.png" srcSet="hexa/img/HexaFinity.png 2x" alt="logo" /> */}
+                {/* <img className="logo-light" src="hexa/img/HexaFinity.webp" srcSet="hexa/img/HexaFinity.webp 2x" alt="logo" /> */}
 
-                    <a href="./" className="ath-logo"><img style={{height: "100px"}} src="hexa/img/HexaFinity.png" srcset="images/logo-full-white2x.png 2x" alt="logo" /></a>
+                    <a href="./" className="ath-logo"><img style={{height: "100px"}} src="hexa/img/HexaFinity.webp" srcset="images/logo-full-white2x.png 2x" alt="logo" /></a>
                 </div>
                 <div className="ath-body">
                     <h5 className="ath-heading title">Sign in <small className="tc-default">with your HexaFinity Account</small></h5>
