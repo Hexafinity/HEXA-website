@@ -588,7 +588,7 @@ function FAQPage() {
                             circulation and the underlying fiat currency held in
                             reserves.
                           </p>
-                          <img src="hexa/img/useCase.jpg" />
+                          <img src="hexa/img/useCase.webp" className="img-position"/>
                         </div>
                       </div>
                     </div>
