@@ -107,7 +107,7 @@ function Ecosystems() {
             data-animate="fadeInUp"
             data-delay="0.2"
           >
-            <img src="images/globe-particle.png" alt="globe" />
+            <img src="images/globe-particle.webp" alt="globe" />
           </div>
         </div>
       </div>

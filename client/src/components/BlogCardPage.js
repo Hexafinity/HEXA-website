@@ -13,7 +13,7 @@ function BlogCardPage() {
                 <Link to="/blog">
                   <div className="blog">
                     <div className="blog-photo">
-                      <img src="images/blog/a.jpg" alt="blog-thumb" />
+                      <img src="images/blog/a.webp" alt="blog-thumb" />
                     </div>
                     <div className="blog-text">
                       <ul className="blog-meta">
@@ -38,7 +38,7 @@ function BlogCardPage() {
               <div className="col-lg-4 col-sm-6">
                 <div className="blog">
                   <div className="blog-photo">
-                    <img src="images/blog/b.jpg" alt="blog-thumb" />
+                    <img src="images/blog/b.webp" alt="blog-thumb" />
                   </div>
                   <div className="blog-text">
                     <ul className="blog-meta">
@@ -62,7 +62,7 @@ function BlogCardPage() {
               <div className="col-lg-4 col-sm-6">
                 <div className="blog">
                   <div className="blog-photo">
-                    <img src="images/blog/c.jpg" alt="blog-thumb" />
+                    <img src="images/blog/c.webp" alt="blog-thumb" />
                   </div>
                   <div className="blog-text">
                     <ul className="blog-meta">
@@ -86,7 +86,7 @@ function BlogCardPage() {
               <div className="col-lg-4 col-sm-6">
                 <div className="blog">
                   <div className="blog-photo">
-                    <img src="images/blog/d.jpg" alt="blog-thumb" />
+                    <img src="images/blog/d.webp" alt="blog-thumb" />
                   </div>
                   <div className="blog-text">
                     <ul className="blog-meta">
@@ -110,7 +110,7 @@ function BlogCardPage() {
               <div className="col-lg-4 col-sm-6">
                 <div className="blog">
                   <div className="blog-photo">
-                    <img src="images/blog/e.jpg" alt="blog-thumb" />
+                    <img src="images/blog/e.webp" alt="blog-thumb" />
                   </div>
                   <div className="blog-text">
                     <ul className="blog-meta">
@@ -134,7 +134,7 @@ function BlogCardPage() {
               <div className="col-lg-4 col-sm-6">
                 <div className="blog">
                   <div className="blog-photo">
-                    <img src="images/blog/f.jpg" alt="blog-thumb" />
+                    <img src="images/blog/f.webp" alt="blog-thumb" />
                   </div>
                   <div className="blog-text">
                     <ul className="blog-meta">
