@@ -38,7 +38,7 @@ function TeamPage() {
               >
                 <div className="team team-s2 team-odd">
                   <div className={`team-photo team-photo-s2 ${style.remote_pink}`}>
-                    <img src={getImage(`avatars/members/san.jpg`)} alt="" />
+                    <img src={getImage(`avatars/members/san.webp`)} alt="" />
                     <a
                       href="#team-popup-1"
                       className="team-show content-popup"
@@ -74,7 +74,7 @@ function TeamPage() {
                   <div className="row align-items-start">
                     <div className="col-md-6">
                       <div className="team-photo">
-                        <img src={getImage(`avatars/members/san.jpg`)} alt="team" />
+                        <img src={getImage(`avatars/members/san.webp`)} alt="team" />
                       </div>
                     </div>
                     <div className="col-md-6">
@@ -142,7 +142,7 @@ function TeamPage() {
               >
                 <div className="team team-s2 team-even">
                   <div className={`team-photo team-photo-s2 ${style.remote_pink}`}>
-                    <img src={getImage(`avatars/members/yezlybeth.jpg`)} alt="" />
+                    <img src={getImage(`avatars/members/yezlybeth.webp`)} alt="" />
                     <a
                       href="#team-popup-2"
                       className="team-show content-popup"
@@ -172,7 +172,7 @@ function TeamPage() {
                   <div className="row align-items-start">
                     <div className="col-md-6">
                       <div className="team-photo">
-                        <img src={getImage(`avatars/members/yezlybeth.jpg`)} alt="" />
+                        <img src={getImage(`avatars/members/yezlybeth.webp`)} alt="" />
                       </div>
                     </div>
 
@@ -213,7 +213,7 @@ function TeamPage() {
               >
                 <div className="team team-s2 team-odd">
                   <div className={`team-photo team-photo-s2 ${style.remote_pink}`}>
-                    <img src={getImage(`avatars/members/product.png`)} alt="" />
+                    <img src={getImage(`avatars/members/product.webp`)} alt="" />
                     <a
                       href="#team-popup-3"
                       className="team-show content-popup"
@@ -243,7 +243,7 @@ function TeamPage() {
                   <div className="row align-items-start">
                     <div className="col-md-6">
                       <div className="team-photo">
-                        <img src={getImage(`avatars/members/product.png`)} alt="" />
+                        <img src={getImage(`avatars/members/product.webp`)} alt="" />
                       </div>
                     </div>
                     {/* <!-- .col  --> */}
@@ -284,7 +284,7 @@ function TeamPage() {
               >
                 <div className="team team-s2 team-even">
                   <div className={`team-photo team-photo-s2 ${style.remote_pink}`}>
-                    <img src={getImage(`avatars/members/financial.png`)} alt="" />
+                    <img src={getImage(`avatars/members/financial.webp`)} alt="" />
                     <a
                       href="#team-popup-4"
                       className="team-show content-popup"
@@ -324,7 +324,7 @@ function TeamPage() {
                   <div className="row align-items-start">
                     <div className="col-md-6">
                       <div className="team-photo">
-                        <img src={getImage(`avatars/members/financial.png`)} alt="" />
+                        <img src={getImage(`avatars/members/financial.webp`)} alt="" />
                       </div>
                     </div>
                     {/* <!-- .col  --> */}
