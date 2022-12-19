@@ -32,7 +32,7 @@ function MvpPage() {
                                 <em className="icon icon-xs icon-circle fas fa-check"></em>
                             </div>
                             <div className="feature-text">
-                                <p>Trader: As a trader, you can swap cryptocurrency safely using our swap feature. Also, traders can borrow funds from the Vault on margin, entrusting strategic contracts to execute transactions through our exchange or any other exchange.. Cras quis odio dapibus nisl rhoncus.</p>
+                                <p>Trader: As a trader, you can swap cryptocurrency safely using our swap feature. Also, traders can borrow funds from the Vault on margin, entrusting strategic contracts to execute transactions through our exchange or any other exchange..</p>
                             </div>
                         </div>
                         <div className="feature feature-inline animated" data-animate="fadeInUp" data-delay="0.5">
