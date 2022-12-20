@@ -1,22 +1,18 @@
 import React, {useState, useEffect} from "react";
 import { contentService } from '../services';
-
+import { bannerConstant } from '../constants';
 
 function Banner () {
 
   const [banner, setBanner] = useState(null)
   
-  useEffect (()=> {
-      
+  useEffect (()=> {      
     getBanner()
-
   }, [])
 
   const getBanner = () => {        
     contentService.getBanner({}, (err, res) => {
-        if (err) return;
-        
-        console.log ("res....", res)
+        if (err) return;                
         if (res.status) {
           setBanner (res.data)
         }
@@ -38,7 +34,9 @@ function Banner () {
                   data-animate="fadeInUp"
                   data-delay=".7"
                 >
-                  <img src="hexa/img/Hexa.webp" alt="Hexa Token" />
+                  {
+                    banner && banner.image && banner.image.length > 0 ? <img src={banner.image} alt="Hexa Token" />: <img src="hexa/img/Hexa.webp" alt="Hexa Token" />
+                  }                
                 </div>
               </div>
               <div className="col-xl-5 col-lg-6 col-sm-10 text-center text-lg-left">
@@ -47,22 +45,15 @@ function Banner () {
                     className="title title-lg ttu animated"
                     data-animate="fadeInUp"
                     data-delay=".8"
-                  >
-                    Hexa The Portal to Infinity
+                  >                    
+                    {banner && banner.heading? banner.heading: bannerConstant.heading}   
                   </h1>
                   <p
                     className="lead animated"
                     data-animate="fadeInUp"
                     data-delay=".9"
-                  >
-                    The HexaFinity Token (HEXA) is the native utility token with
-                    unlimited use in our platform, and we are working with
-                    outside partners to expand those uses. HEXA will allow
-                    holders to lend & borrow a variety of different tokens. In
-                    addition, the lenders will be rewarded a variable-based
-                    interest rate, including free HEXA tokens for using our
-                    lending protocol. In addition, HexaFinity users will be
-                    rewarded for holding HEXA in their wallets.                    
+                  >                    
+                    {banner && banner.description? banner.description: bannerConstant.description}             
                   </p>
                   <div
                     className="cpn-action animated"
@@ -70,7 +61,7 @@ function Banner () {
                     data-delay="1"
                   >
                     <a className="btn btn-primary btn-round" href="#">
-                      Buy Hexa
+                      {banner && banner.button_text? banner.button_text: bannerConstant.btn_txt}   
                     </a>
                   </div>
                 </div>
