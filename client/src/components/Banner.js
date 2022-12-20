@@ -1,6 +1,28 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+import { contentService } from '../services';
 
-function Banner() {
+
+function Banner () {
+
+  const [banner, setBanner] = useState(null)
+  
+  useEffect (()=> {
+      
+    getBanner()
+
+  }, [])
+
+  const getBanner = () => {        
+    contentService.getBanner({}, (err, res) => {
+        if (err) return;
+        
+        console.log ("res....", res)
+        if (res.status) {
+          setBanner (res.data)
+        }
+    })
+  }
+
   return (
     <header
       className="nk-header page-header is-transparent is-sticky is-dark"
@@ -40,7 +62,7 @@ function Banner() {
                     addition, the lenders will be rewarded a variable-based
                     interest rate, including free HEXA tokens for using our
                     lending protocol. In addition, HexaFinity users will be
-                    rewarded for holding HEXA in their wallets.
+                    rewarded for holding HEXA in their wallets.                    
                   </p>
                   <div
                     className="cpn-action animated"

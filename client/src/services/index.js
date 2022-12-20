@@ -1,2 +1,2 @@
 export * from './user.service';
-export * from './banner.service';
+export * from './content.service';

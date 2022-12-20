@@ -33,20 +33,20 @@ const shoppingReducer = (state = initialState, action) => {
             }
 
         case DELETE_FROM_CART:
-            if (action.name == 'lecture') {
-                let lectures = state.lectures.filter(item => item.id != action.value.id);
+            if (action.name === 'lecture') {
+                let lectures = state.lectures.filter(item => item.id !== action.value.id);
                 return {
                     ...state,
                     lectures: lectures
                 }
-            } else if (action.name == 'challenge') {
-                let challenges = state.challenges.filter(item => item.id != action.value.id);
+            } else if (action.name === 'challenge') {
+                let challenges = state.challenges.filter(item => item.id !== action.value.id);
                 return {
                     ...state,
                     challenges: challenges
                 }
             } else {
-                let markets = state.markets.filter(item => item.id != action.value.id);
+                let markets = state.markets.filter(item => item.id !== action.value.id);
                 return {
                     ...state,
                     markets: markets
